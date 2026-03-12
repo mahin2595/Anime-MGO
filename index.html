@@ -1,69 +1,71 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/index.css">
-  <title>Anime MGO</title>
-  <script crossorigin="anonymous" src="https://kit.fontawesome.com/70a642cd7c.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime MGo</title>
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-  <header>
-    <div class="logo">
-      <img src="kuroiwa_girl.svg" alt="Anime Logo">
-    </div>
-    <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#anime-list">Anime List</a></li>
-        <li><a href="content/kaijuno8.html">Categories</a></li>
-        <li><a href="#about">About</a></li>
-       
-      </ul>
-    </nav>
-  </header>
-  <section class="videosk">
- 
-  <div class="video-list">
-    <div class="video-item">
-      <img src="images/Jujutsu Kaisen.jpg" alt="Jujutsu Kaisen">
-      <p>Jujutsu Kaisen</p>
-    </div>
-    <div class="video-item">
-      <img src="/images/Solo Leveling.jpg" alt="Solo Leveling">
-      <p>Solo Leveling</p>
-    </div>
-    <div class="video-item">
-      <img src="images/MASHLE_ MAGIC AND MUSCLES.jpg" alt="Anime Thumbnail 3">
-      <p>MASHLE: MAGIC AND MUSCLES</p>
-    </div>
-    </div>
-    <div class="video-item">
-      <img src="images/The Daily Life of the Immortal King.jpg" alt="Anime Thumbnail h3">
-      <p>The Daily Life of the Immortal King</p>
-    </div>
-  </section>
-  <div class="iconArea">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-youtube"></i></a>
-  </div>
-   
-  <script>
-    function adjustHeaderSize() {
-      const header = document.querySelector('header');
-      const logo = document.querySelector('.logo');
-      const nav = document.querySelector('nav');
+<nav>
+    <input type="checkbox" id="sidebar-active">
+    <label for="sidebar-active" class="open-sidebar-button">
+      <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+    </label>
+    <label id="overlay" for="sidebar-active"></label>
+    <div class="links-container">
+      <label for="sidebar-active" class="close-sidebar-button">
+        <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+      </label>
 
-      const headerHeight = logo.offsetHeight > nav.offsetHeight ? logo.offsetHeight : nav.offsetHeight;
-      header.style.height = `${headerHeight}px`;
-    }
-
-    window.addEventListener('resize', adjustHeaderSize);
-    adjustHeaderSize(); // Call the function initially to set the initial size
-  </script>
-  <script src="js/index.js"></script>
+      <a class="home-link" href="index.html">Home</a> 
+      <a href="about.html">About</a> 
+      <a href="products.html">Products</a>
+      <a href="blog.html">Blog</a>
+      <a href="login.html">Login</a>
+      
+    </div>
+  </nav>
+    <div class="wrapper">
+        <header>
+            <input type="text" id="search-bar" placeholder="Search posts...">
+        </header>
+        <main>
+            <article class="post">
+                <h2>Alya Sometimes Hide Her Feelings in Russian</h2>
+                <img src="Images/InShot_o_152107945.jpg" alt="Anime 1">
+                <p class="post-content">Smart, refined, and strikingly gorgeous, half-Russian half-Japanese Alisa Mikhailovna Kujou is considered the idol of her school. With her long silver hair, mesmerizing blue eyes, and exceptionally fair skin, she has captured the hearts of countless male students while being highly admired by all others. Even so, due to her seemingly unapproachable persona, everyone remains wary around the near-flawless girl. One of the few exceptions is Alisa's benchmate Masachika Kuze, a relatively average boy who spends his days watching anime and playing gacha games. Despite his nonchalant demeanor, Masachika is the sole student to receive Alisa's attention. Unable to be fully honest, Alisa is frequently harsh on Masachika and only expresses her affection in Russian. Unbeknownst to her, however, Masachika actually understands the language yet simply pretends otherwise for his own amusement. As the odd pair continues to exchange witty and playful remarks, their relationship gradually grows more romantic and delightful—and Alisa might finally learn to freely convey her true feelings.</p>
+                <button class="toggle-button">See More</button>
+                <a href="https://mega.nz/folder/ZMcDhYrI#AJdu1D4Lq0GJ0xY3KsaJnQ" target="_blank">Download and Watch</a>
+            </article>
+            <article class="post">
+                <h2>The Strongest Magician in the Demon Lord's Army was a Human</h2>
+                <img src="Images/InShot_o_152158168.jpg" alt="Anime 2">
+                <p class="post-content">"Maou Army’s strongest magician" I'm called. Ike, a demon capable of capturing a fort alone. Clearing away enemies with immense magic, he is without a doubt a monster awed by friend and foe. However he has a secret he can’t tell other demons. "I, actually I'm human you know." Using modern knowledge to keep his secret, he became treated as a great commander and the driving force of the Maou's army.</p>
+                <button class="toggle-button">See More</button>
+                <a href="https://example.com" target="_blank">Download and Watch</a>
+            </article>
+            <article class="post">
+                <h2>No Longer Allowed In Another World</h2>
+                <img src="Images/InShot_o_152140217.jpg" alt="Anime 3">
+                <p class="post-content">An adventure in another world with cute girls by your side and video game-like powers—sounds like an anime fan's dream, right? Not so for melancholic author Osamu Dazai, who would quite literally prefer to drop dead. Video games haven't even been invented yet when he gets yanked into another world in 1948. Really, all the fantastical adventure he keeps running into is just getting in the way of his poetic dream of finding the perfect place to die. But no matter how much he risks his hide, everything seems to keep turning out okay. Follow a miserable hero like no other in this cheerfully bleak isekai comedy!</p>
+                <button class="toggle-button">See More</button>
+                <a href="https://example.com" target="_blank">Download and Watch</a>
+            </article>
+            <article class="post">
+                <h2>Days With My StepSister</h2>
+                <img src="Images/InShot_153417775.jpg" alt="Anime 4">
+                <p class="post-content">Yuuta Asamura gets a new stepsister after his father remarries, Saki Ayase, who happens to be the number one beauty of the school year. They promise each other not to be too close, not to be too opposing, and to simply keep a vague and comfortable distance, having learned important values about men and women relationships from their parents' previous ones. Saki, who has worked alone for the sake of her family, doesn't know how to properly rely on others, whereas Yuuta is unsure of how to truly treat her. Standing on fairly equal ground, these two gradually learn the comfort of living together. Their relationship progresses from strangers to friends as the days pass. This is a story that may one day lead to love.</p>
+                <button class="toggle-button">See More</button>
+                <a href="https://example.com" target="_blank">Download and Watch</a>
+            </article>
+            <!-- Add more articles as needed -->
+        </main>
+    </div>
+    <footer>
+        <p>&copy; 2024 Anime MGo. All rights reserved.</p>
+        <p>mahinakando3@gmail.com</p>
+    </footer>
+    <script src="js/index.js"></script>
 </body>
 </html>
